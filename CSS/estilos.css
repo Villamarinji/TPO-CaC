@@ -5,15 +5,30 @@
 }
 
 .contenedor .header {
-    background-color: #12203e;
+    background-color: #03102c;
     color: beige;
     margin:0.3%;
     padding: 0.3%;
 }
 .contenedor .header .nav{
-    background-color: silver;
+    background-color: rgb(181, 215, 243);
+    border-radius: 5px;
+    margin: 0.3%;
+    padding: 0.3%;
+    font-size: 1.5vw;
+    left: 0;
 }
 .contenedor .header .nav a{
     text-decoration: none;
     color: black;
+}
+.inline{
+    display:inline-block
+}
+.footer h3{
+    background-color: #03102c;
+    color: beige;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
 }
