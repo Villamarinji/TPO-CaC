@@ -7,28 +7,77 @@
 .contenedor .header {
     background-color: #03102c;
     color: beige;
-    margin:0.3%;
-    padding: 0.3%;
+    margin:0;
+    padding: 0;
+    height: auto;
 }
+
+.contenedor .header h5{
+    padding-top: 5px;
+    margin: 5px;
+}
+
 .contenedor .header .nav{
-    background-color: rgb(181, 215, 243);
-    border-radius: 5px;
-    margin: 0.3%;
-    padding: 0.3%;
+    background-color: #088f88;
+    padding: 8px;
     font-size: 1.5vw;
-    left: 0;
+    display: block;
+    text-align: left;
+    
 }
 .contenedor .header .nav a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: 'barlow', sans-serif;
+    font-size: 18px;
+    padding: 2px;
 }
+
+.contenedor .header .nav :hover{
+    background-color: #f5f5dc;
+    color: #03102c;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+
 .inline{
     display:inline-block
 }
-.footer h3{
+
+.footer{
+    font-size: 1.5vw;
     background-color: #03102c;
+    font-family: 'Raleway', sans-serif;
     color: #f5f5dc;
-    padding: 10px;
+    width: 100%;
+    padding: 40px;
+    height: 30px;
     text-align: center;
-    font-size: small;
+    bottom: 0;
+    left: 0;
+    position: fixed;
 }
+
+.contenedor .header h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.contenedor .header h4{
+    font-family: 'Barlow', sans-serif;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.contenedor .contenido {
+    padding: 10px;
+}
+
+.fa-instagram, .fa-square-twitter, .fa-square-facebook, .fa-square-pinterest,.fa-linkedin
+{    text-decoration: none;
+    color: #f5f5dc;
+    font-size: 2.5vw;
+}
+
