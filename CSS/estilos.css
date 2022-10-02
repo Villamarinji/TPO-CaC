@@ -46,7 +46,7 @@
 }
 
 .footer{
-    font-size: 1.5vw;
+    font-size: 12px;
     background-color: #03102c;
     font-family: 'Raleway', sans-serif;
     color: #f5f5dc;
@@ -78,6 +78,6 @@
 .fa-instagram, .fa-square-twitter, .fa-square-facebook, .fa-square-pinterest,.fa-linkedin
 {    text-decoration: none;
     color: #f5f5dc;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
 }
 
