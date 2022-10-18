@@ -5,6 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* ---------------------- Formato del Carrusel --------------------- */
 #conteItemsCarrusel{
     height: 400px ;
     overflow: hidden;
@@ -56,7 +57,7 @@
     justify-content: space-between;
     padding: 20px;
 }
-
+/* -------------------------------- Fin de Formato Carrusel ----------------------- */
 
 .contenedor .header {
     background-color: #03102c;
@@ -124,7 +125,7 @@
     font-size: 18px;
 }
 
-.contenedor .contenido {
+.contenedor .noticias {
     padding: 10px;
 }
 
@@ -137,4 +138,7 @@
 .noticias img{
     height: 200px;
     width: 300px;
+}
+.noticias #noticia1, #noticia2, #noticia3, #noticia4, #noticia5 {
+    padding-bottom: 10px;
 }
