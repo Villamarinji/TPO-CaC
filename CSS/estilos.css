@@ -110,7 +110,6 @@
     text-align: center;
     bottom: 0;
     left: 0;
-    position: fixed;
 }
 
 .contenedor .header h1{
@@ -135,3 +134,7 @@
     font-size: 1.5vw;
 }
 
+.noticias img{
+    height: 200px;
+    width: 300px;
+}
