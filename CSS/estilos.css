@@ -2,7 +2,7 @@
 @media only screen and (min-width: 800px){
     /*PC: Ancho mínimo 800px, desde 800px le aplicamos este estilo*/
     body{
-       
+       background-color: #f5f5dc;
     } 
     
 }
