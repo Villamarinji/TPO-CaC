@@ -1,3 +1,43 @@
+/*screen: monitores o pantallas de computadora*/
+@media only screen and (min-width: 800px){
+    /*PC: Ancho mínimo 800px, desde 800px le aplicamos este estilo*/
+    body{
+       
+    } 
+    
+}
+
+@media only screen and (max-width: 600px){
+    /*tablet - ver tamaño en px*/
+    body{
+        background-color: lightgrey;
+    } 
+    
+}
+
+@media only screen and (max-width: 400px){
+    /*Celulares: Ancho máximo 400px, hasta 400px le aplicamos este estilo*/
+    body{
+        background-color: #707c96;
+    }
+    #conteItemsCarrusel {
+        display: none;
+    } 
+    #contePuntos {
+        display: none;
+    } 
+    .flechascarrusel {
+        display: none;
+    } 
+    .tarjetacarrusel {
+        display: none;
+    } 
+    .itemCarrusel {
+         display: none;
+    } 
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -133,4 +173,16 @@
 }
 .noticias #noticia1, #noticia2, #noticia3, #noticia4, #noticia5 {
     margin: 15px;
+}
+
+.contenedor .formulario {
+    font-family: 'Arial';
+    font-size: 15px;
+    border: 3px solid #03102c;
+    border-radius: 2%;
+    padding: 20px;
+    width: 50%;
+    /* centrar la caja */
+    text-align: justify;
+    align-content: center;
 }
