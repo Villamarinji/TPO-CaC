@@ -7,7 +7,7 @@
 
 /* ---------------------- Formato del Carrusel --------------------- */
 #conteItemsCarrusel{
-    height: 400px ;
+    height: 500px ;
     overflow: hidden;
 }
 #conteItemsCarrusel a{
@@ -17,7 +17,7 @@
     font-size: 30px;
 }
 #conteItemsCarrusel img{
-    height: 100%;
+    height: 500px;
     width: 100%;
 }
 #contePuntos{
@@ -27,24 +27,10 @@
 #contePuntos a{
     text-decoration:none ;
 }
-#tarjetaCarrusel-1{
-    background-color: rgb(182, 182, 231);
-}
-#tarjetaCarrusel-2{
-    background-color: rgb(90, 90, 236);
-}
-#tarjetaCarrusel-3{
-    background-color: rgb(128, 238, 113);
-}
 
 .itemCarrusel{
     height: 100%;
     position: relative;
-}
-
-.tarjetacarrusel{
-    background-color: aqua;
-    height: 100%;
 }
 
 .flechascarrusel{
@@ -126,8 +112,12 @@
 }
 
 .contenedor .noticias {
-    padding: 10px;
-    width: 623px ;
+    padding: 0;
+    margin: 0;
+    width: 100% ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
 }
 
 .fa-instagram, .fa-square-twitter, .fa-square-facebook, .fa-square-pinterest,.fa-linkedin
@@ -137,9 +127,10 @@
 }
 
 .noticias img{
-    height: 120px;
-    width: 180px;
+    height: 200px;
+    width: 350px;
+   
 }
 .noticias #noticia1, #noticia2, #noticia3, #noticia4, #noticia5 {
-    padding-bottom: 10px;
+    margin: 15px;
 }
